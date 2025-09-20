@@ -9,7 +9,7 @@
 // }
 int main() {
     int a, b;
-    scanf("%2d %3d",&a,&b);
-    printf("%d %d\n",a,b);
+    scanf("%d %d",&a,&b);
+    printf("a=%4d b=%3d\n",a,b);
     return 0;
 }
