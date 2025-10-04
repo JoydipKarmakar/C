@@ -1,7 +1,11 @@
 #include<stdio.h>
 int main() {
     int percentage;
-    printf("Enter your percentage: ");
+    for(i=1; i<5; i++){
+        printf("Enter your percentage: ",&i);
+        scanf("%d", &percentage);
+    }
+    
     if (scanf("%d", &percentage) == 1) {
         if (percentage >= 85) {
             printf("You got A grade\n");
